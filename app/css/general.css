@@ -1,0 +1,52 @@
+/*---------- GENERAL start------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: #FBFBFB;
+}
+
+div#hello-bar, div#hello-bar small {
+  text-align: center;
+}
+
+div#hello-bar {
+  width: 100%;
+  padding: 15px 7px 18px;
+  border-bottom: 2px solid #00000011;
+}
+
+
+/*---------- GENERAL end ------------*/
+
+
+/*---------- [MEDIA QUERIES] start ------------*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) {
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+/*---------- [MEDIA QUERIES] end ------------*/
