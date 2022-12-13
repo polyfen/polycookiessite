@@ -9,6 +9,10 @@ html, body {
   background: #FBFBFB;
 }
 
+body {
+  border-top: 10px solid #bfa290;
+}
+
 div#hello-bar, div#hello-bar small {
   text-align: center;
 }
@@ -17,6 +21,10 @@ div#hello-bar {
   width: 100%;
   padding: 15px 7px 18px;
   border-bottom: 2px solid #00000011;
+}
+
+a {
+  text-decoration: none;
 }
 
 

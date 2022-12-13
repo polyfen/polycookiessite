@@ -1,5 +1,36 @@
 /*---------- SECTIONS start------------*/
 
+section#hero-cover {
+    padding: 120px 60px 100px;
+    border-bottom: 2px solid #00000011;
+}
+
+section#hero-cover h1, section#hero-cover p {
+    text-align: left;
+}
+
+section#hero-cover h1 {
+    margin-bottom: 20px;
+}
+
+section#hero-cover p {
+    margin-left: 0;
+    max-width: 550px;
+}
+
+section.container {
+    width: 100%;
+    max-width: 780px;
+    margin: 60px auto;
+}
+
+section#download h2 {
+    text-align: center;
+}
+
+section#download {
+    text-align: center;
+}
 
 /*---------- SECTIONS end ------------*/
 

@@ -28,6 +28,8 @@
 
   <!-- FAVICON -->
 
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/8412458317.js" crossorigin="anonymous"></script>
 
 
   <!-- CSS General -->

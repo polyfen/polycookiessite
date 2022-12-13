@@ -1,7 +1,7 @@
 <header>
-  <a href="../"><img src="imgs/poly-forum.svg" id="logo" alt="Poly Forum"></a>
+  <img src="imgs/poly-cookies-logo.svg" height="50px" width="auto" alt="Poly Cookies">
   <nav>
-    <button id="log-in-button" onclick="window.open('https://polyforum.org/slack','_blank')">Log-in</button>  
-    <button id="sign-up-button" onclick="window.open('https://polyforum.org/join','_blank')" class="featured-button"><img src="../imgs/slack-icon.svg" height="16px" width="auto" style="margin-top:-4px;margin-left:-2px;margin-right:4px;"> Sign-up</button>
+    <a href="https://github.com/The-Poly-Group" target="_blank" style="margin-right:20px;"><i class="fa-brands fa-github"></i> an open-source project</a>
+    <a href=""><button><i class="fa-solid fa-heart"></i> Send a Donation</button></a>
   </nav>
 </header>

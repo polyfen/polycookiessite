@@ -1,5 +1,28 @@
 /*---------- BUTTONS start -----------*/
 
+button {
+    padding: 10px 20px;
+    background: #bfa290;
+    border: none;
+    border-radius: 3px;
+    opacity: 0.9;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    opacity: 1;
+
+}
+
+button i {
+    color: #ffffff78;
+}
+
+button:hover i {
+    color: white;
+}
+
 /*---------- BUTTONS end -----------*/
 
 

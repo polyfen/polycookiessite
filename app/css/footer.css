@@ -1,5 +1,25 @@
 /*---------- FOOTER start ------------*/
 
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #00000011;
+    padding: 10px 20px;
+}
+
+div#social-icons ul li {
+    display: inline;
+    margin-left: 8px;
+}
+
+div#social-icons ul li:first-of-type {
+    margin-left: 0;
+}
+
 /*---------- FOOTER end ------------*/
 
 /*---------- [MEDIA QUERIES] start ------------*/

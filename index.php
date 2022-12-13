@@ -21,27 +21,20 @@
       <small>We don't express any legal advice, this is just an open-source tech project.</small>
     </div>
 
-    <div style="display:none;">
-      <header>
-        <img src="#">
-        <nav>
-          <a href="#" target="_blank">Github</a>
-          <button>Send a Donation</a>
-        </nav>
-      </header>
+    <!-- INCLUDE HEAD.PHP start -->
+      <?php include 'sections/header.php';?>
+    <!-- INCLUDE HEAD.PHP end -->
 
-      <section class="hero-cover">
-        <h1>An open-source solution to cookies and GDPR</h1>
-        <button>Watch Tutorial</button>
+    <div>
+      
+      <section id="hero-cover">
+        <h1>A free solution for your website's privacy protection</h1>
+        <p>Privacy Protection is not just for legal compliance, it's about caring for your users.</p>
+        <button>View Documentation</button>
         <button>Download Files</button>
       </section>
 
-      <section>
-        <h2>Watch the tutorial</h2>
-        <img src="#">
-      </section>
-
-      <section>
+      <section id="documentation" class="container">
         <h2>Documentation</h2>
         <h3>Intro</h3>
         <h3>Javascript</h3>
@@ -52,10 +45,33 @@
         <h3>Authors</h3>
       </section>
 
+      <hr>
+
+      <section id="download" class="container">
+        <h2>Download</h2>
+        <a href=""><button><i class="fa-solid fa-heart"></i> Send a Donation</button></a>
+        <button><i class="fa-solid fa-folder-arrow-down"></i> Download Files</button>
+
+      </section>
+
+      </div>
+      <div style="display: none;">
+
+      <section>
+        <h2>Watch the tutorial</h2>
+        <img src="#">
+      </section>
+
+      
+
       <section>
         <h2>Download</h2>
       </section>
     </div>
+
+    <!-- INCLUDE HEAD.PHP start -->
+    <?php include 'sections/footer.php';?>
+    <!-- INCLUDE HEAD.PHP end -->
 
   </body>
 </html>

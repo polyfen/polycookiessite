@@ -1,5 +1,17 @@
 /*---------- HEADER start ------------*/
 
+header {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+header img {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
 
 /*---------- HEADER end ------------*/
 
