@@ -13,6 +13,14 @@ header nav {
     float: right;
 }
 
+a#github {
+    opacity: 0.7;
+}
+
+a#github:hover {
+    opacity: 1;
+}
+
 /*---------- HEADER end ------------*/
 
 

@@ -17,6 +17,11 @@
 
   <body id="home">
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRC582D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div id="hello-bar">
       <small>We don't express any legal advice, this is just an open-source tech project.</small>
     </div>
@@ -30,8 +35,8 @@
       <section id="hero-cover">
         <h1>A free solution for your website's privacy protection</h1>
         <p>Privacy Protection is not just for legal compliance, it's about caring for your users.</p>
-        <button><i class="fa-solid fa-book"></i> View Documentation</button>
-        <button><i class="fa-solid fa-folder-arrow-down"></i> Download Files</button>
+        <button><i class="fa-solid fa-book"></i> Documentation</button>
+        <button><i class="fa-solid fa-circle-down"></i> Download</button>
       </section>
 
       <section id="documentation" class="container">
@@ -50,7 +55,7 @@
       <section id="download" class="container">
         <h2>Download</h2>
         <a href=""><button class="donation-button"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i> Send a Donation</button></a>
-        <button><i class="fa-solid fa-folder-arrow-down"></i> Download Files</button>
+        <button><i class="fa-solid fa-circle-down"></i> Download Files</button>
 
       </section>
 

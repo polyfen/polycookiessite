@@ -102,7 +102,7 @@ p strong, li strong {
 
 button, a.buttons /* (mobile) */ {
   font-size: 16px;
-  letter-spacing: 1.4px;
+  letter-spacing: 1px;
   line-height: normal;
   text-align: center;
   font-weight: 600 /* semi-bold */;
