@@ -23,6 +23,14 @@ button:hover i {
     color: white;
 }
 
+button.donation-button i.fa-solid, button.donation-button:hover i.fa-regular {
+    display: none;
+}
+
+button.donation-button:hover i.fa-solid, button.donation-button i.fa-regular {
+    display: inline;
+}
+
 /*---------- BUTTONS end -----------*/
 
 
