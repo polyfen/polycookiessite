@@ -7,16 +7,32 @@ button {
     border-radius: 3px;
     opacity: 0.9;
     cursor: pointer;
-    color: white;
+    color: rgba(255, 255, 255, 0.80);
 }
 
-button:hover {
-    opacity: 1;
+button.secondary-button {
+    color: #bfa290;
+    background: none;
+    outline: 2px solid #bfa290;
+    outline-offset: -2px;
+}
 
+button.secondary-button i {
+    color: #bfa290;
 }
 
 button i {
     color: #ffffff78;
+}
+
+button:hover {
+    color:white;
+    opacity: 1;
+}
+
+button.secondary-button:hover {
+    color: white;
+    background: #bfa290;
 }
 
 button:hover i {
