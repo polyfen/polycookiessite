@@ -57,9 +57,9 @@ h4 span {
 }
 
 p, p a, li, p i, p strong, li strong, blockquote {
-  font-size: 21px;
+  font-size: 18px;
   letter-spacing: 0.1px;
-  line-height: 1.4;
+  line-height: 1.8;
   text-align: left;
   margin: auto;
   font-weight: 400 /*regular*/;
@@ -73,7 +73,7 @@ p, p a, li, p i, p strong, li strong, blockquote {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   max-width: 860px;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 p a:hover {

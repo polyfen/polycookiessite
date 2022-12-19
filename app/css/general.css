@@ -26,6 +26,22 @@ a {
   text-decoration: none;
 }
 
+div.tasks {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+div.tasks input {
+  height: 20px;
+  width: 20px;
+  accent-color: #bfa290;
+}
+
+div.tasks label {
+  margin-left: 6px;
+}
+
 
 /*---------- GENERAL end ------------*/
 
