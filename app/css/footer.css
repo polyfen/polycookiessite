@@ -5,7 +5,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-top: 2px solid #00000011;
     padding: 20px 20px;
