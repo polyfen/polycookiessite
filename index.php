@@ -33,8 +33,8 @@
     <div>
       
       <section id="hero-cover">
-        <h1>A free solution for your website's privacy protection</h1>
-        <p>Privacy Protection is not just for legal compliance, it's about caring for your users.</p>
+        <h1>A free solution to privacy protection</h1>
+        <p>Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users.</p>
         <button><i class="fa-solid fa-book"></i> Documentation</button>
         <button><i class="fa-solid fa-cloud-arrow-down"></i> Download</button>
       </section>
