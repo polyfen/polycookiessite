@@ -86,10 +86,15 @@
         <p>You can either create a new HTML, or you can use the template we've provided for you:</p>
         <pre><code>
 &lt;div id="cookies-modal-container">
-&lt;div id="cookies-modal">
-    &lt;div id="cookies-title"> 🍪 Improve your experience accepting our &lt;a href="#YOUR-PRIVACY-POLICY-PAGE" target="_blank">privacy policy&lt;/a>.&lt;/div> &lt;div id="cookies-modal-buttons">&lt;button id="accept-button" onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Accept&lt;/button> &lt;button onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Reject&lt;/button>&lt;/div>
+  &lt;div id="cookies-modal">
+    &lt;div id="cookies-title">
+      🍪 Improve your experience accepting our &lt;a href="#YOUR-PRIVACY-POLICY-PAGE" target="_blank">privacy policy&lt;/a>.
     &lt;/div>
+    &lt;div id="cookies-modal-buttons">
+      &lt;button id="accept-button" onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Accept&lt;/button> &lt;button onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Reject&lt;/button>
     &lt;/div>
+  &lt;/div>
+&lt;/div>
     </code></pre>
       </section>
 

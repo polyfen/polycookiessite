@@ -42,6 +42,16 @@ div.tasks label {
   margin-left: 6px;
 }
 
+pre {
+  overflow: scroll;
+  background: #222222;
+  padding: 0 20px;
+}
+
+code {
+  color: #ffffffd4;
+}
+
 
 /*---------- GENERAL end ------------*/
 
