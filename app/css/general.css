@@ -43,6 +43,10 @@ div.tasks label {
 }
 
 
+div#cookies-modal-container {
+  display: none;
+}
+
 /*---------- GENERAL end ------------*/
 
 
