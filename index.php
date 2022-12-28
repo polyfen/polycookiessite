@@ -81,21 +81,83 @@
         <hr style="margin: 60px 60px;">
         <div class="tasks">
           <input type="checkbox" id="horns" name="horns">
-          <label for="horns">5. Add the Cookies Modal as an HTML Tag</label>
+          <label for="horns">5. Add the Cookies Modal as a custom HTML Tag</label>
         </div>
         <p>You can either create a new HTML, or you can use the template we've provided for you:</p>
-        <pre><code>
+        <pre>
+          <code>
 &lt;div id="cookies-modal-container">
   &lt;div id="cookies-modal">
     &lt;div id="cookies-title">
       🍪 Improve your experience accepting our &lt;a href="#YOUR-PRIVACY-POLICY-PAGE" target="_blank">privacy policy&lt;/a>.
     &lt;/div>
     &lt;div id="cookies-modal-buttons">
-      &lt;button id="accept-button" onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Accept&lt;/button> &lt;button onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Reject&lt;/button>
+      &lt;button id="accept-cookies-button" onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Accept&lt;/button> &lt;button onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Reject&lt;/button>
     &lt;/div>
   &lt;/div>
 &lt;/div>
-    </code></pre>
+          </code>
+        </pre>
+        <p>Just replace the link "#YOUR-PRIVACY-POLICY-PAGE" with your privacy policy's page URL. If you don't have a privacy's policy page yet, you can set one up for free using a privacy policy generator, like <a href="https://getterms.io" target="_blank">getterms.io</a>. We have no affiliation with GetTerms and you can use any other privacy policy generator or create a custom one consulting a legal expert.</p>
+        <p>We'll set up "All pages" as the trigger.</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">6. Create a Trigger based on clicking the Accept button</label>
+        </div>
+        <p>We'll go to the Triggers page and create a new one named "Clicked on Accept Cookies".</p>
+        <p>Select the "Click - All Elements" trigger type.</p>
+        <p>Change the option of "Trigger fires on" to "Some Clicks".</p>
+        <p>We'll set it as "Click ID", "equals", and "accept-cookies-button".</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">7. Create a new tag to Change the Consent Permissions</label>
+        </div>
+        <p>On the Tags page, we'll create a new one with a type of "Consent Mode - Vendor Agnostic Google Template".</p>
+        <p>The consent command should be "Update Command", and we'll set "Granted" in all storage settings.</p>
+        <p>As the trigger, We'll select the new "Clicked on Accept Cookies" we created and save.</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">8. Save the consent acceptance with a cookie</label>
+        </div>
+        <p>Create a new custom HTML tag named "Save Consent 1st party Cookie" with the following content:</p>
+        <pre>
+          <code>
+&lt;script>document.cookie = 'consentAccepted=true; expires=Tue, 19 Jan 2038 03:14:07 GMT;'&lt;/script>
+          </code>
+        </pre>
+        <p>Make sure you check the box with the label "Support document.write".</p>
+        <p>And we'll select "Clicked on Accept Cookies" as the trigger and save the tag.</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">9. Create new Trigger for Page Views after accepted consent</label>
+        </div>
+        <p>We'll create a new Trigger and name it "Page view - previously accepted cookies".</p>
+        <p>Set the trigger configuration as "Page View".</p>
+        <p>Choose the firing option "Some Page Views".</p>
+        <p>Set the conditions for firing on "consentAccepted", "equals", and type "true".</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">10. Hide the Cookies modal on new page views after accepted consent</label>
+        </div>
+        <p>On the Tags page, we'll edit the "Cookies Modal" custom HTML tag triggers and add an exception.</p>
+        <p>We'll select "Page view - previously accepted cookies" as an exception and save.</p>
+        <p>Once we submit our Google Tag Manager container the functionality of our cookies consent modal should be working.</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">11. Add CSS style to the Cookies Modal</label>
+        </div>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">12. Set all tracking tags to trigger after accepted consent</label>
+        </div>
+        <p>Any tags that you want to you on your website to track your users activity should be set with the two triggers "Clicked on Accept Cookies" and "Page View - previously accepted cookies".</p>
       </section>
 
       <hr>

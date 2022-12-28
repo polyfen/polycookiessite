@@ -56,6 +56,7 @@
   <link rel="stylesheet" href="app/css/buttons.css" type="text/css">
   <link rel="stylesheet" href="app/css/separators.css" type="text/css">
   <link rel="stylesheet" href="app/css/sections.css" type="text/css">
+  <link rel="stylesheet" href="app/css/cookies.css" type="text/css">
 
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
