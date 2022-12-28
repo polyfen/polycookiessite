@@ -22,6 +22,7 @@ div#cookies-modal-container {
     align-items: center;
     justify-content: center;
     align-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.18);
   }
  
   div#cookies-title {
@@ -75,7 +76,6 @@ div#cookies-modal-container {
     border-color: #000;
     background:rgba(255, 255, 255, 0.508);
     font-size: 0.9rem;
-    font-family: 'BiotifMedium';
     border-width: 1px;
   }
   
