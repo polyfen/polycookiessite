@@ -49,17 +49,17 @@ div#cookies-modal-container {
   
   div#cookies-modal a {
     color: #000;
-    border-bottom: 2px dotted #7537f8;
+    border-bottom: 2px dotted #bfa290;
   }
 
   div#cookies-modal a:hover {
     color: #000;
-    border-bottom: 2px solid #7537f8;
+    border-bottom: 2px solid #bfa290;
   }
   
 
   div#cookies-modal button {
-    padding: 7px 25px 3px;
+    padding: 5px 25px 4px;
     border: 2px solid #fdb0bb;
     border-radius: 4px;
     background: #fdfdfd;
