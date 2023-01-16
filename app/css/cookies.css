@@ -28,13 +28,15 @@
   div#cookies-title {
     color: #000;
   }
-  
+
   div#cookies-modal a {
     color: #000;
+    border-bottom: 2px dotted #000;
   }
 
   div#cookies-modal a:hover {
     color: #000;
+    border-bottom: 2px solid #000;
   }
  
   div#cookies-modal-buttons {
@@ -60,6 +62,10 @@
     margin-left: 6px;
   }
 
+  div#cookies-modal button#accept-cookies-button {
+    border-color: #00000057;
+  }
+
   div#cookies-modal button#reject-cookies-button {
     opacity: 0.4;
     border-color: #000000a7;
@@ -68,6 +74,7 @@
   div#cookies-modal button:hover, div#cookies-modal button#reject-cookies-button:hover {
     background:white;
     color: #000;
+    border-color: #00000071;
     box-shadow: none;
     opacity: 1;
   }  
@@ -91,18 +98,12 @@
 
   /*///////////// CUSTOMIZE COLORS START /////////////*/
   
-  div#cookies-modal a {
-    border-bottom: 2px dotted #bfa290;
-  }
-
-  div#cookies-modal a:hover {
-    border-bottom: 2px solid #bfa290;
+  div#cookies-modal a, div#cookies-modal a:hover {
+    border-color: #bfa290;
   }
 
   div#cookies-modal button#accept-cookies-button {
-    color: #2f2823;
     background: #bfa290;
-    border-color: #504239;
   }
 
   /*///////////// CUSTOMIZE COLORS END /////////////*/
