@@ -12,9 +12,18 @@
   </div>
 
   <div id="the-poly-group">
-    <a href="http://thepolygroup.co" target="_blank">
-      <img src="imgs/the-poly-group_low.svg" height="35px" width="auto" alt="The Poly Group">
-    </a>
+    <div id="tpg" onmouseover="document.getElementById('tpg-dark').className='d-none';document.getElementById('tpg-light').className='tpg-logo d-inline';" onmouseout="document.getElementById('tpg-dark').className='tpg-logo d-inline';document.getElementById('tpg-light').className='d-none';">
+      <div class="tpg-logo d-inline" id="tpg-dark">
+        <a href="https://thepolygroup.co" target="_blank">
+        <img src="imgs/the-poly-group_low.svg" height="35px" width="auto" style="box-shadow:none;" id="tpg-dark">
+      </a>
+      </div>
+      <div class="d-none" id="tpg-light">
+        <a href="https://thepolygroup.co" target="_blank">
+        <img src="imgs/the-poly-group.svg" height="35px" width="auto" style="box-shadow:none;" id="tpg-light">
+        </a>
+      </div>
+    </div>
   </div>
 
 

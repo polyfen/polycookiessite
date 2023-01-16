@@ -24,6 +24,10 @@ div#the-poly-group {
     text-align: right;
 }
 
+div#tpg {
+    display: inline;
+}
+
 /*---------- FOOTER end ------------*/
 
 /*---------- [MEDIA QUERIES] start ------------*/
