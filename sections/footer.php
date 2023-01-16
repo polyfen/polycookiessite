@@ -8,7 +8,7 @@
   </div>
 
   <div id="legal">
-    <a href="#" target="_blank">Privacy Policy</a>
+    <a href="privacy.php" target="_blank">Privacy Policy</a>
   </div>
 
   <div id="the-poly-group">
