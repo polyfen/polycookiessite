@@ -12,15 +12,15 @@
   <!-- META Page-Specific -->
   <meta property="og:title" content="Poly Cookies"/>
   <meta property="og:url" content="https://polycookies.com"/>
-  <meta name="keywords" content="#" />
-  <meta name="description" property="og:description" content="#" />
+  <meta name="keywords" content="privacy, protection, cookies, gdpr, legal, compliance, web, consent" />
+  <meta name="description" property="og:description" content="A free and open-source solution to privacy protection. Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users." />
   <meta property="og:image" content="#"/>
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="#" />
+  <meta name="twitter:site" content="Poly Cookies" />
   <meta name="twitter:title" content="Poly Cookies" />
-  <meta name="twitter:description" content="#" />
+  <meta name="twitter:description" content="A free and open-source solution to privacy protection. Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users." />
   <meta name="twitter:image" content="#" />
   <meta name="robots" content="index,follow">
   <!-- PAGE-SPECIFIC META end -->
