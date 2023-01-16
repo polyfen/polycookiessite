@@ -31,12 +31,12 @@
 
   div#cookies-modal a {
     color: #000;
-    border-bottom: 2px dotted #000;
+    border-bottom: 3px dotted #000;
   }
 
   div#cookies-modal a:hover {
     color: #000;
-    border-bottom: 2px solid #000;
+    border-bottom: 3px solid #000;
   }
  
   div#cookies-modal-buttons {
@@ -95,6 +95,38 @@
     }
   
   }
+
+  /*///////////// DARK MODE START /////////////*/
+
+  div#cookies-modal.dark-theme {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+
+  div#cookies-modal.dark-theme div#cookies-title, div#cookies-modal.dark-theme a, div#cookies-modal.dark-theme a:hover {
+    color: #fff;
+  }
+
+  div#cookies-modal.dark-theme button {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    border-color: #fff;
+  }
+
+  div#cookies-modal.dark-theme button:hover, div#cookies-modal.dark-theme button#reject-cookies-button:hover {
+    background:rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  /*///////////// DARK MODE END /////////////*/
+
+  /*///////////// CUSTOMIZE TYPOGRAPHY START /////////////*/
+
+  div#cookies-modal-container, div#cookies-modal-container div, div#cookies-modal-container a, div#cookies-modal-container button {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  }
+
+  /*///////////// CUSTOMIZE TYPOGRAPHY END /////////////*/
 
   /*///////////// CUSTOMIZE COLORS START /////////////*/
   
