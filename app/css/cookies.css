@@ -1,6 +1,6 @@
 /*///////////// COOKIES MODAL START /////////////*/
 
-div#cookies-modal-container {
+  div#cookies-modal-container {
     display: flex;
     justify-content: center;
   }
@@ -28,17 +28,59 @@ div#cookies-modal-container {
   div#cookies-title {
     color: #000;
   }
+  
+  div#cookies-modal a {
+    color: #000;
+  }
 
+  div#cookies-modal a:hover {
+    color: #000;
+  }
+ 
   div#cookies-modal-buttons {
     margin-top: 15px;
     margin-bottom: 10px;
   }
+
+  div#cookies-modal button {
+    padding: 5px 25px 4px;
+    border-radius: 4px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    float: right;
+    font-size: 0.9rem;
+    border-width: 1px;
+    opacity: 0.8;
+    border: 2px solid #000;
+    background: rgba(255, 255, 255, 0.508);
+    color: #000;
+  }
+
+  div#cookies-modal button:first-child {
+    margin-left: 6px;
+  }
+
+  div#cookies-modal button#reject-cookies-button {
+    opacity: 0.4;
+    border-color: #000000a7;
+  }
   
+  div#cookies-modal button:hover, div#cookies-modal button#reject-cookies-button:hover {
+    background:white;
+    color: #000;
+    box-shadow: none;
+    opacity: 1;
+  }  
+  
+  div#cookies-modal.cookies-d-none {
+    display: none !important;
+  }
+
   @media (min-width: 768px) {
   
     div#cookies-modal {
-    justify-content: space-between;
-    bottom: 20px;
+      justify-content: space-between;
+      bottom: 20px;
     }
   
     div#cookies-modal-buttons {
@@ -46,51 +88,23 @@ div#cookies-modal-container {
     }
   
   }
+
+  /*///////////// CUSTOMIZE COLORS START /////////////*/
   
   div#cookies-modal a {
-    color: #000;
     border-bottom: 2px dotted #bfa290;
   }
 
   div#cookies-modal a:hover {
-    color: #000;
     border-bottom: 2px solid #bfa290;
   }
-  
 
-  div#cookies-modal button {
-    padding: 5px 25px 4px;
-    border: 2px solid #fdb0bb;
-    border-radius: 4px;
-    background: #fdfdfd;
-    letter-spacing: 0;
-    color: #fdb0bb;
-    text-transform: uppercase;
-    font-size: 1rem;
-    opacity: 0.8;
-}
-  
-  div#cookies-modal button {
-    float: right;
-    color: #000;
-    border-color: #000;
-    background:rgba(255, 255, 255, 0.508);
-    font-size: 0.9rem;
-    border-width: 1px;
+  div#cookies-modal button#accept-cookies-button {
+    color: #2f2823;
+    background: #bfa290;
+    border-color: #504239;
   }
-  
-  div#cookies-modal button:hover {
-    background:white;
-    color: #444444;
-    box-shadow: none;
-  }
-  
-  div#cookies-modal button:first-child {
-    margin-left: 6px;
-  }
-  
-  div#cookies-modal.cookies-d-none {
-    display: none !important;
-  }
+
+  /*///////////// CUSTOMIZE COLORS END /////////////*/
   
   /*///////////// COOKIES MODAL END /////////////*/
