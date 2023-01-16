@@ -1,14 +1,10 @@
 /*---------- FOOTER start ------------*/
 
 footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
     border-top: 2px solid #00000011;
     padding: 20px 20px;
+    grid-template-columns: repeat(3,1fr);
 }
 
 div#social-icons ul li {
@@ -18,6 +14,14 @@ div#social-icons ul li {
 
 div#social-icons ul li:first-of-type {
     margin-left: 0;
+}
+
+div#legal {
+    text-align: center;
+}
+
+div#the-poly-group {
+    text-align: right;
 }
 
 /*---------- FOOTER end ------------*/
