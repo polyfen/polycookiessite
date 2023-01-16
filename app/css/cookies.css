@@ -66,6 +66,22 @@
     border-color: #00000057;
   }
 
+  button#accept-cookies-button:before {
+    background-image: url('../../imgs/thumbs-up-regular.svg');
+    margin-left: -10px;
+    margin-right: 7px;
+    background-size: 20px auto;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    margin-bottom: -3px;
+  }
+
+  button#accept-cookies-button:hover:before {
+    background-image: url('../../imgs/thumbs-up-solid.svg');
+  }
+
   div#cookies-modal button#reject-cookies-button {
     opacity: 0.4;
     border-color: #000000a7;
@@ -116,6 +132,14 @@
   div#cookies-modal.dark-theme button:hover, div#cookies-modal.dark-theme button#reject-cookies-button:hover {
     background:rgba(0, 0, 0, 0.5);
     color: #fff;
+  }
+
+  div#cookies-modal.dark-theme button#accept-cookies-button:before {
+    background-image: url('../../imgs/thumbs-up-regular-white.svg');
+  }
+
+  div#cookies-modal.dark-theme button#accept-cookies-button:hover:before {
+    background-image: url('../../imgs/thumbs-up-solid-white.svg');
   }
 
   /*///////////// DARK MODE END /////////////*/
