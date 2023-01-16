@@ -125,7 +125,12 @@
         <p>Create a new custom HTML tag named "Save Consent 1st party Cookie" with the following content:</p>
         <pre>
           <code>
-&lt;script>document.cookie = 'consentAccepted=true; expires=Tue, 19 Jan 2038 03:14:07 GMT;'&lt;/script>
+&lt;script>
+  var date = new Date();
+  date.setTime(date.getTime() + (90 * 24 * 60 * 60 * 1000));
+  var expires = "expires=" + date.toUTCString();
+  document.cookie = 'consentAccepted=true; ' + expires + '; path=/';
+&lt;/script>
           </code>
         </pre>
         <p>Make sure you check the box with the label "Support document.write".</p>
