@@ -1,6 +1,6 @@
 <header>
   <a href="index.php">
-   <img src="imgs/poly-cookies-logo.svg" height="50px" width="auto" alt="Poly Cookies">
+   <img src="imgs/poly-cookies-logo.svg" alt="Poly Cookies">
   </a>
   <nav>
     <a id="github" href="https://github.com/The-Poly-Group" target="_blank" style="margin-right:20px;"><i class="fa-brands fa-github"></i> an open-source project</a>

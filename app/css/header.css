@@ -7,10 +7,13 @@ header {
 
 header img {
     float: left;
+    height: 35px;
+    width: auto;
 }
 
 header nav {
     float: right;
+    display: none;
 }
 
 a#github {
@@ -47,6 +50,15 @@ a#github:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+    header img {
+        height: 50px;
+        width: auto;
+    }
+
+    header nav {
+        display: block;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
