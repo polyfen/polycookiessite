@@ -10,12 +10,12 @@ section#hero-cover h1, section#hero-cover p {
 }
 
 section#hero-cover h1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 section#hero-cover p {
     margin-left: 0;
-    max-width: 550px;
+    max-width: 500px;
 }
 
 section.container {

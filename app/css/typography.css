@@ -1,7 +1,7 @@
 /*---------- TYPOGRAPHY start ------------*/
 
 * {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifMedium', 'Poppins', Helvetica, Arial, sans-serif;
   color: #444444;
 }
 
@@ -12,14 +12,13 @@ h1 {
   text-align: center;
   font-weight: bold /* bold */;
   font-style: normal;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifExtrabold', 'Poppins', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
-  font-variant-ligatures: discretionary-ligatures;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
-  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  -moz-font-feature-settings: "kern", "liga";
+  -ms-font-feature-settings: "kern", "liga";
+  -webkit-font-feature-settings: "kern", "liga";
+  font-feature-settings: "kern", "liga";
 }
 
 h1 span {
@@ -33,7 +32,7 @@ h2 {
   text-align: left;
   font-weight: bold /* bold */;
   font-style: normal;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifExtrabold', 'Poppins', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   font-variant-ligatures: discretionary-ligatures;
@@ -57,7 +56,7 @@ h4 span {
 }
 
 p, p a, li, p i, p strong, li strong, blockquote {
-  font-size: 18px;
+  font-size: 20.5px;
   letter-spacing: 0.1px;
   line-height: 1.8;
   text-align: left;
@@ -65,7 +64,8 @@ p, p a, li, p i, p strong, li strong, blockquote {
   font-weight: 400 /*regular*/;
   font-style: normal;
   color: #00000091;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: 'BiotifMedium', 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: freight-text-pro, serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -108,7 +108,7 @@ button, a.buttons /* (mobile) */ {
   font-weight: 600 /* semi-bold */;
   text-transform: uppercase;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'BiotifBold', 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -124,7 +124,7 @@ a small, small /* (mobile) */ {
   text-align: center;
   font-weight: normal /* semi-bold */;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'BiotifMedium', 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
   font-kerning: normal !important;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";

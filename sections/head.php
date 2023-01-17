@@ -59,6 +59,24 @@
   <link rel="stylesheet" href="app/css/cookies.css" type="text/css">
 
   <!-- FONTS -->
+  <!--
+  /**
+  * @license
+  * MyFonts Webfont Build ID 568563
+  *
+  * The fonts listed in this notice are subject to the End User License
+  * Agreement(s) entered into by the website owner. All other parties are
+  * explicitly restricted from using the Licensed Webfonts(s).
+  *
+  * You may obtain a valid license from one of MyFonts official sites.
+  * http://www.fonts.com
+  * http://www.myfonts.com
+  * http://www.linotype.com
+  *
+  */
+  -->
+  <link rel="stylesheet" type="text/css" href="libs/fonts/Biotif.css">
+  <link rel="stylesheet" href="https://use.typekit.net/aba8ecz.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 

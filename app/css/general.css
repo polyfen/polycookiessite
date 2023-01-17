@@ -49,6 +49,7 @@ div.tasks input {
 
 div.tasks label {
   margin-left: 6px;
+  font-family: 'BiotifBold', 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 pre {
