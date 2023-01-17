@@ -14,15 +14,15 @@
     display: flex !important;
     background: rgba(255, 255, 255, 0.6);
     padding: 10px 20px;
-    border-radius: 6px;
-    backdrop-filter: blur(6px);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
     z-index: 10;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     align-content: center;
-    border: 1px solid rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.18);
   }
  
   div#cookies-title {
@@ -104,6 +104,7 @@
     div#cookies-modal {
       justify-content: space-between;
       bottom: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.18);
     }
   
     div#cookies-modal-buttons {
@@ -114,9 +115,11 @@
 
   /*///////////// DARK MODE START /////////////*/
 
+  
+
   div#cookies-modal.dark-theme {
-    background: rgba(0, 0, 0, 0.6);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.75);
+    border: 4px solid rgba(0, 0, 0, 1);
   }
 
   div#cookies-modal.dark-theme div#cookies-title, div#cookies-modal.dark-theme a, div#cookies-modal.dark-theme a:hover {
@@ -140,6 +143,15 @@
 
   div#cookies-modal.dark-theme button#accept-cookies-button:hover:before {
     background-image: url('../../imgs/thumbs-up-solid-white.svg');
+  }
+
+  @media (min-width: 768px) {
+
+    div#cookies-modal.dark-theme {
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+
   }
 
   /*///////////// DARK MODE END /////////////*/
