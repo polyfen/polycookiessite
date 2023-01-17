@@ -26,6 +26,15 @@ a {
   text-decoration: none;
 }
 
+p a, li a {
+  border-bottom: 3px dotted #bfa290;
+}
+
+p a:hover, li a:hover {
+  color: #bfa290 !important;
+  border-bottom: 3px solid #bfa290;
+}
+
 div.tasks {
   font-size: 26px;
   margin-top: 20px;
