@@ -157,6 +157,14 @@
           <input type="checkbox" id="task-no-11" name="task-no-11">
           <label for="task-no-11">11. Add CSS style to the Cookies Modal</label>
         </div>
+          <p>Add the "cookies.css" file from Poly Cookies to your website's &lt;head>.</p>
+          <pre>
+            <code>
+&lt;link rel="stylesheet" href="cookies.css" type="text/css">
+            </code>
+          </pre>
+          <p>Make sure all files (like the thumbs-up icons) are in the correct directory path.</p>
+          <p>By default, the cookies modal features a light theme. However, we can change it to a dark theme by adding <code>class="dark-theme"</code> to <code>&lt;div id="cookies-modal"></code> in the Cookies Modal HTML tag from GTM.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
           <input type="checkbox" id="task-no-12" name="task-no-12">

@@ -51,6 +51,8 @@ pre {
 
 code {
   color: #ffffffd4;
+  background: #222222;
+  padding: 0 6px;
 }
 
 div.content-container {
