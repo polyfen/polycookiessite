@@ -25,12 +25,14 @@ section.container {
     padding: 0 10px;
 }
 
-section#download h2 {
+section#support h2 {
     text-align: center;
+    margin-bottom: 40px;
 }
 
-section#download {
+section#support {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 /*---------- SECTIONS end ------------*/

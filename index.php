@@ -46,17 +46,18 @@
           <label for="task-no-1">1. Download the Poly Cookies source files</label>
         </div>
         <p>X</p>
+        <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-1" name="task-no-1">
-          <label for="task-no-1">1. Make sure you have installed GTM in all the pages of your website</label>
+          <input type="checkbox" id="task-no-2" name="task-no-2">
+          <label for="task-no-2">2. Make sure you have installed GTM in all the pages of your website</label>
         </div>
         <p>We're gonna be using Google Tag Manager to add our code and settings. If you're not familiar with Google Tag Manager, don't worry. This tutorial will cover what you need to know.</p>
         <p>If you haven't used Google Tag Manager before, then use your Google account to sign in and create a Container where we'll be adding all our code and specifications for your website, and add the corresponding code to call the Container in your head and body elements of all the pages you want to work with Poly Cookies.</p>
         <p>If you already have a Container embedded in your website, then you can start with the following steps.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-2" name="task-no-2">
-          <label for="task-no-2">2. Add the Consent Mode tag to GTM</label>
+          <input type="checkbox" id="task-no-3" name="task-no-3">
+          <label for="task-no-3">3. Add the Consent Mode tag to GTM</label>
         </div>
         <p>The <a href="https://github.com/googleanalytics/gtm-consent-mode-examples" target="_blank">Vendor Agnostic Google Consent Template</a> will allow us to define and change the consent preferences of the user in GTM.</p>
         <p>Download the ZIP file of the Google Consent Template: <a href="https://github.com/googleanalytics/gtm-consent-mode-examples/archive/refs/heads/main.zip" target="_blank">https://github.com/googleanalytics/gtm-consent-mode-examples/archive/refs/heads/main.zip</a></p>
@@ -66,8 +67,8 @@
         <p>The rest of the information about the Tag will fill out automatically. Just submit it.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-3" name="task-no-3">
-          <label for="task-no-3">3. Create a Default Consent state</label>
+          <input type="checkbox" id="task-no-4" name="task-no-4">
+          <label for="task-no-4">4. Create a Default Consent state</label>
         </div>
         <p>Once you're in the Workspace of your desired Container, we'll go to "Tags" and click on the "New" button in the upper right corner.</p>
         <p>We'll name it "Default Consent" so that Google knows that we're not having intrusive behavior with the user's browser once he or she lands on our webpage.</p>
@@ -76,16 +77,16 @@
         <p>As a trigger for the Tag will set "Consent Initialization - All Pages", which is by default the first event that fires in GTM.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-4" name="task-no-4">
-          <label for="task-no-4">4. Create a new Consent Accepted variable</label>
+          <input type="checkbox" id="task-no-5" name="task-no-5">
+          <label for="task-no-5">5. Create a new Consent Accepted variable</label>
         </div>
         <p>On the Variables page of your GTM, look for the "User-Defined Variables" section and click the "New" button.</p>
         <p>Name the new variable "consentAccepted" and set the variable type as a "1st Party Cookie".</p>
         <p>We'll set the Cookie Name to "consentAccepted" and click on "Save".</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-5" name="task-no-5">
-          <label for="task-no-5">5. Add the Cookies Modal as a custom HTML Tag</label>
+          <input type="checkbox" id="task-no-6" name="task-no-6">
+          <label for="task-no-6">6. Add the Cookies Modal as a custom HTML Tag</label>
         </div>
         <p>You can either create a new HTML, or you can use the template we've provided for you:</p>
         <pre>
@@ -106,8 +107,8 @@
         <p>We'll set up "All pages" as the trigger.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-6" name="task-no-6">
-          <label for="task-no-6">6. Create a Trigger based on clicking the Accept button</label>
+          <input type="checkbox" id="task-no-7" name="task-no-7">
+          <label for="task-no-7">7. Create a Trigger based on clicking the Accept button</label>
         </div>
         <p>We'll go to the Triggers page and create a new one named "Clicked on Accept Cookies".</p>
         <p>Select the "Click - All Elements" trigger type.</p>
@@ -115,16 +116,16 @@
         <p>We'll set it as "Click ID", "equals", and "accept-cookies-button".</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-7" name="task-no-7">
-          <label for="task-no-7">7. Create a new tag to Change the Consent Permissions</label>
+          <input type="checkbox" id="task-no-8" name="task-no-8">
+          <label for="task-no-8">8. Create a new tag to Change the Consent Permissions</label>
         </div>
         <p>On the Tags page, we'll create a new one with a type of "Consent Mode - Vendor Agnostic Google Template".</p>
         <p>The consent command should be "Update Command", and we'll set "Granted" in all storage settings.</p>
         <p>As the trigger, We'll select the new "Clicked on Accept Cookies" we created and save.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-8" name="task-no-8">
-          <label for="task-no-8">8. Save the consent acceptance with a cookie</label>
+          <input type="checkbox" id="task-no-9" name="task-no-9">
+          <label for="task-no-9">9. Save the consent acceptance with a cookie</label>
         </div>
         <p>Create a new custom HTML tag named "Save Consent 1st party Cookie" with the following content:</p>
         <pre>
@@ -141,8 +142,8 @@
         <p>And we'll select "Clicked on Accept Cookies" as the trigger and save the tag.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-9" name="task-no-9">
-          <label for="task-no-9">9. Create new Trigger for Page Views after accepted consent</label>
+          <input type="checkbox" id="task-no-10" name="task-no-10">
+          <label for="task-no-10">10. Create new Trigger for Page Views after accepted consent</label>
         </div>
         <p>We'll create a new Trigger and name it "Page view - previously accepted cookies".</p>
         <p>Set the trigger configuration as "Page View".</p>
@@ -150,16 +151,22 @@
         <p>Set the conditions for firing on "consentAccepted", "equals", and type "true".</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-10" name="task-no-10">
-          <label for="task-no-10">10. Hide the Cookies modal on new page views after accepted consent</label>
+          <input type="checkbox" id="task-no-11" name="task-no-11">
+          <label for="task-no-11">11. Hide the Cookies modal on new page views after accepted consent</label>
         </div>
         <p>On the Tags page, we'll edit the "Cookies Modal" custom HTML tag triggers and add an exception.</p>
         <p>We'll select "Page view - previously accepted cookies" as an exception and save.</p>
         <p>Once we submit our Google Tag Manager container the functionality of our cookies consent modal should be working.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-11" name="task-no-11">
-          <label for="task-no-11">11. Add CSS style to the Cookies Modal</label>
+          <input type="checkbox" id="task-no-12" name="task-no-12">
+          <label for="task-no-12">12. Test functionality</label>
+        </div>
+        <p>X</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="task-no-13" name="task-no-13">
+          <label for="task-no-131">13. Add CSS style to the Cookies Modal</label>
         </div>
           <p>Add the "cookies.css" file from Poly Cookies to your website's &lt;head>.</p>
           <pre>
@@ -171,18 +178,17 @@
           <p>By default, the cookies modal features a light theme. However, we can change it to a dark theme by adding <code>class="dark-theme"</code> to <code>&lt;div id="cookies-modal"></code> in the Cookies Modal HTML tag from GTM.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-12" name="task-no-12">
-          <label for="task-no-12">12. Set all tracking tags to trigger after accepted consent</label>
+          <input type="checkbox" id="task-no-14" name="task-no-14">
+          <label for="task-no-14">14. Set all tracking tags to trigger after accepted consent</label>
         </div>
         <p>Any tags that you want to you on your website to track your users activity should be set with the two triggers "Clicked on Accept Cookies" and "Page View - previously accepted cookies".</p>
       </section>
 
       <hr>
 
-      <section id="download" class="container">
-        <h2>Download</h2>
+      <section id="support" class="container">
+        <h2>Support Privacy Protection</h2>
         <a href="https://donate.stripe.com/9AQ5lgeoDef2b1CdQQ" target="_blank"><button class="secondary-button donation-button"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i> Send a Donation</button></a>
-        <button><i class="fa-solid fa-cloud-arrow-down"></i> Download Files</button>
 
       </section>
 
