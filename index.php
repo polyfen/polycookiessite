@@ -201,19 +201,13 @@
       </section>
 
       </div>
+      
       <div style="display: none;">
-
       <section>
         <h2>Watch the tutorial</h2>
         <img src="#">
       </section>
-
-      
-
-      <section>
-        <h2>Download</h2>
-      </section>
-    </div>
+      </div>
 
     <!-- INCLUDE HEAD.PHP start -->
     <?php include 'sections/footer.php';?>
