@@ -45,7 +45,8 @@
           <input type="checkbox" id="task-no-1" name="task-no-1">
           <label for="task-no-1">1. Download the Poly Cookies source files</label>
         </div>
-        <p>X</p>
+        <p>First, download the Poly Cookies source files which include the HTML code will be adding to Google Tag Manager and the CSS file you'll be adding to your website.</p>
+        <p>Download the ZIP file from the following link: <a href="#" target="_blank">#</a></p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
           <input type="checkbox" id="task-no-2" name="task-no-2">
@@ -160,13 +161,7 @@
         <hr style="margin: 60px 60px;">
         <div class="tasks">
           <input type="checkbox" id="task-no-12" name="task-no-12">
-          <label for="task-no-12">12. Test functionality</label>
-        </div>
-        <p>X</p>
-        <hr style="margin: 60px 60px;">
-        <div class="tasks">
-          <input type="checkbox" id="task-no-13" name="task-no-13">
-          <label for="task-no-131">13. Add CSS style to the Cookies Modal</label>
+          <label for="task-no-12">12. Add CSS style to the Cookies Modal</label>
         </div>
           <p>Add the "cookies.css" file from Poly Cookies to your website's &lt;head>.</p>
           <pre>
@@ -178,10 +173,23 @@
           <p>By default, the cookies modal features a light theme. However, we can change it to a dark theme by adding <code>class="dark-theme"</code> to <code>&lt;div id="cookies-modal"></code> in the Cookies Modal HTML tag from GTM.</p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
-          <input type="checkbox" id="task-no-14" name="task-no-14">
-          <label for="task-no-14">14. Set all tracking tags to trigger after accepted consent</label>
+          <input type="checkbox" id="task-no-13" name="task-no-13">
+          <label for="task-no-13">13. Set all tracking tags to trigger after accepted consent</label>
         </div>
         <p>Any tags that you want to you on your website to track your users activity should be set with the two triggers "Clicked on Accept Cookies" and "Page View - previously accepted cookies".</p>
+        <hr style="margin: 60px 60px;">
+        <div class="tasks">
+          <input type="checkbox" id="task-no-14" name="task-no-14">
+          <label for="task-no-14">14. Test functionality</label>
+        </div>
+        <p>Clear your server and browser caché and open your website on a new tab.</p>
+        <p>Right-click anywhere on your webpage and click "Inspect Item" to open up the DevTools windown.</p>
+        <p>On the "Application" tab, navigate to the Storage›Cookies section of the sidebar, and click on your website's URL.</p>
+        <p>There should be no cookies saved on your browser by default.</p>
+        <p>Next, Click on the "Reject" button of the cookies modal. The modal should dissappear without saving any cookies.</p>
+        <p>Refresh the website, the cookies modal should re-appear. This time, click on the "Accept" button.</p>
+        <p>Lastly, go back to the DevTools "Application" tab and make sure there is a new cookie being registered from your website named "consentAccepted" with a value of "True" and an expiration date set 90 days from today's date.</p>
+        <p>All other tracking cookies you might be using, like "_ga" from Google Analytics, should also be appearing on the DevTools window.</p>
       </section>
 
       <hr>
