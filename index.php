@@ -43,9 +43,13 @@
         <h2>Documentation</h2>
         <div class="tasks">
           <input type="checkbox" id="task-no-1" name="task-no-1">
+          <label for="task-no-1">1. Download the Poly Cookies source files</label>
+        </div>
+        <p>X</p>
+        <div class="tasks">
+          <input type="checkbox" id="task-no-1" name="task-no-1">
           <label for="task-no-1">1. Make sure you have installed GTM in all the pages of your website</label>
         </div>
-        </ul>
         <p>We're gonna be using Google Tag Manager to add our code and settings. If you're not familiar with Google Tag Manager, don't worry. This tutorial will cover what you need to know.</p>
         <p>If you haven't used Google Tag Manager before, then use your Google account to sign in and create a Container where we'll be adding all our code and specifications for your website, and add the corresponding code to call the Container in your head and body elements of all the pages you want to work with Poly Cookies.</p>
         <p>If you already have a Container embedded in your website, then you can start with the following steps.</p>
