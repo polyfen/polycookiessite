@@ -111,6 +111,7 @@
           <input type="checkbox" id="task-no-7" name="task-no-7">
           <label for="task-no-7">7. Create a Trigger based on clicking the Accept button</label>
         </div>
+        <p>In the Variables section of Google Tag Manager, we'll click on the "configure" button to set up a new Built-In Variable, and we'll make sure that "Click ID" is checked.</p>
         <p>We'll go to the Triggers page and create a new one named "Clicked on Accept Cookies".</p>
         <p>Select the "Click - All Elements" trigger type.</p>
         <p>Change the option of "Trigger fires on" to "Some Clicks".</p>
