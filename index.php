@@ -73,7 +73,7 @@
         </div>
         <p>Once you're in the Workspace of your desired Container, we'll go to "Tags" and click on the "New" button in the upper right corner.</p>
         <p>We'll name it "Default Consent" so that Google knows that we're not having intrusive behavior with the user's browser once he or she lands on our webpage.</p>
-        <p>In the Tag Type, we'll select the "Consent Mode" tag we've uploaded with the tempalte file.</p>
+        <p>In the Tag Type, we'll select the "Consent Mode" tag we've uploaded with the template file.</p>
         <p>On the Default Settings, we'll add a row to specify that all browser privacy permissions are denied, except  for any related to the Functionality Storage, which should be allowed.</p>
         <p>As a trigger for the Tag will set "Consent Initialization - All Pages", which is by default the first event that fires in GTM.</p>
         <hr style="margin: 60px 60px;">
