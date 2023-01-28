@@ -202,6 +202,10 @@
 
       </section>
 
+      <div id="contact">
+        <a href="mailto:contacto@polycookies.com">contact@polycookies.com</a>
+      </div>
+
       </div>
       
       <div style="display: none;">
