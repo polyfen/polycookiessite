@@ -36,7 +36,7 @@
         <h1>A free solution to cookies consent</h1>
         <p>Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users.</p>
         <button><i class="fa-solid fa-book"></i> Documentation</button>
-        <button><i class="fa-solid fa-cloud-arrow-down"></i> Download</button>
+        <a href="https://github.com/The-Poly-Group/poly-cookies/archive/refs/heads/main.zip" target="_blank"><button><i class="fa-solid fa-cloud-arrow-down"></i> Download</button></a>
       </section>
 
       <section id="documentation" class="container">
@@ -46,7 +46,7 @@
           <label for="task-no-1">1. Download the Poly Cookies source files</label>
         </div>
         <p>First, download the Poly Cookies source files which include the HTML code will be adding to Google Tag Manager and the CSS file you'll be adding to your website.</p>
-        <p>Download the ZIP file from the following link: <a href="#" target="_blank">#</a></p>
+        <p>Download the ZIP file from the following link: <a href="https://github.com/The-Poly-Group/poly-cookies/archive/refs/heads/main.zip" target="_blank">https://github.com/The-Poly-Group/poly-cookies/archive/refs/heads/main.zip</a></p>
         <hr style="margin: 60px 60px;">
         <div class="tasks">
           <input type="checkbox" id="task-no-2" name="task-no-2">
