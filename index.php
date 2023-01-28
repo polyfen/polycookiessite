@@ -89,7 +89,7 @@
           <input type="checkbox" id="task-no-6" name="task-no-6">
           <label for="task-no-6">6. Add the Cookies Modal as a custom HTML Tag</label>
         </div>
-        <p>You can either create a new HTML, or you can use the template we've provided for you in the file <strong>cookies-modal.html</strong></p>
+        <p>You can either create a new HTML, or you can use the template we've provided for you in the file <strong>cookies-modal.html</strong>:</p>
         <pre>
           <code>
 &lt;div id="cookies-modal-container">
