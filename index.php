@@ -89,7 +89,7 @@
           <input type="checkbox" id="task-no-6" name="task-no-6">
           <label for="task-no-6">6. Add the Cookies Modal as a custom HTML Tag</label>
         </div>
-        <p>You can either create a new HTML, or you can use the template we've provided for you in the file cookies-modal.html:</p>
+        <p>You can either create a new HTML, or you can use the template we've provided for you in the file <strong>cookies-modal.html</strong></p>
         <pre>
           <code>
 &lt;div id="cookies-modal-container">
@@ -128,7 +128,7 @@
           <input type="checkbox" id="task-no-9" name="task-no-9">
           <label for="task-no-9">9. Save the consent acceptance with a cookie</label>
         </div>
-        <p>Create a new custom HTML tag named "Save Consent 1st party Cookie" with the following content:</p>
+        <p>Create a new custom HTML tag named "Save Consent 1st party Cookie" with the code included in the <strong>cookies-consent.js</strong> file:</p>
         <pre>
           <code>
 &lt;script>
@@ -163,7 +163,7 @@
           <input type="checkbox" id="task-no-12" name="task-no-12">
           <label for="task-no-12">12. Add CSS style to the Cookies Modal</label>
         </div>
-          <p>Add the "cookies.css" file from Poly Cookies to your website's &lt;head>.</p>
+          <p>Add the <strong>cookies.css</strong> file from Poly Cookies to your website's &lt;head>.</p>
           <pre>
             <code>
 &lt;link rel="stylesheet" href="cookies.css" type="text/css">
