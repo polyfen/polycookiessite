@@ -77,11 +77,11 @@ p, p a, li, p i, p strong, li strong, blockquote {
 }
 
 p a:hover {
-  color: #046ac5 !important;
+  color: #bfa290;
 }
 
 div#poly-forum p a {
-  color: #1e8df0;
+  color: #bfa290;
 }
 
 

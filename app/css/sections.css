@@ -1,7 +1,7 @@
 /*---------- SECTIONS start------------*/
 
 section#hero-cover {
-    padding: 120px 60px 100px;
+    padding: 80px 10px 60px;
     border-bottom: 2px solid #00000011;
 }
 
@@ -19,17 +19,20 @@ section#hero-cover p {
 }
 
 section.container {
-    width: 100%;
+    width: calc(100% - 20px);
     max-width: 780px;
     margin: 60px auto;
+    padding: 0 10px;
 }
 
-section#download h2 {
+section#support h2 {
     text-align: center;
+    margin-bottom: 40px;
 }
 
-section#download {
+section#support {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 /*---------- SECTIONS end ------------*/
@@ -51,6 +54,16 @@ section#download {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+    section#hero-cover {
+        padding: 120px 60px 100px;
+    }
+
+    section.container {
+        width: 100%;
+        padding: 0;
+    }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

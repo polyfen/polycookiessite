@@ -26,6 +26,15 @@ a {
   text-decoration: none;
 }
 
+p a, li a {
+  border-bottom: 3px dotted #bfa290;
+}
+
+p a:hover, li a:hover {
+  color: #bfa290 !important;
+  border-bottom: 3px solid #bfa290;
+}
+
 div.tasks {
   font-size: 26px;
   margin-top: 20px;
@@ -40,6 +49,40 @@ div.tasks input {
 
 div.tasks label {
   margin-left: 6px;
+}
+
+pre {
+  overflow: scroll;
+  background: #222222;
+  padding: 0 20px;
+  margin-bottom: 2rem;
+}
+
+code {
+  color: #ffffffd4;
+  background: #222222;
+  padding: 0 6px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+div.content-container {
+  width: 100%;
+  max-width: 760px;
+  margin: 160px auto 100px;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+div#contact {
+  padding: 20px;
+  text-align: center;
+  background: #efefef;
 }
 
 
