@@ -40,7 +40,7 @@
       </section>
 
       <section id="documentation" class="container">
-        <h2>Documentation</h2>
+        <h2>Installation Guide</h2>
         <div class="tasks">
           <input type="checkbox" id="task-no-1" name="task-no-1">
           <label for="task-no-1">1. Download the Poly Cookies source files</label>
