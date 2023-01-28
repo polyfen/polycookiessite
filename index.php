@@ -198,6 +198,8 @@
         <h2>Support Privacy Protection</h2>
         <a href="https://donate.stripe.com/9AQ5lgeoDef2b1CdQQ" target="_blank"><button class="secondary-button donation-button"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i> Send a Donation</button></a>
 
+        <div class="sharethis-inline-share-buttons"></div>
+
       </section>
 
       </div>

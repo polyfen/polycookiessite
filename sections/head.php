@@ -62,4 +62,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 
+  <!-- Sharethis -->
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=63d4a19a576edb001943b21d&product=inline-share-buttons&source=platform" async="async"></script>
+
 </head>
