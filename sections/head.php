@@ -63,6 +63,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 
   <!-- Sharethis -->
-  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=63d4a19a576edb001943b21d&product=inline-share-buttons&source=platform" async="async"></script>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=63d4a38f576edb001943b21f&product=sop' async='async'></script>
 
 </head>
