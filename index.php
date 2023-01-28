@@ -35,8 +35,8 @@
       <section id="hero-cover">
         <h1>A free solution to cookies consent</h1>
         <p>Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users.</p>
-        <button><i class="fa-solid fa-book"></i> Documentation</button>
         <a href="https://github.com/The-Poly-Group/poly-cookies/archive/refs/heads/main.zip" target="_blank"><button><i class="fa-solid fa-cloud-arrow-down"></i> Download</button></a>
+        <button style="display:none;"><i class="fa-solid fa-book"></i> Documentation</button>
       </section>
 
       <section id="documentation" class="container">
