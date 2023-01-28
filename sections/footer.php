@@ -2,8 +2,8 @@
 
   <div id="social-icons">
     <ul>
-        <li><a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://twitter.com/polycookies" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://github.com/The-Poly-Group" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
     </ul>
   </div>
 
