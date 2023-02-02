@@ -41,8 +41,8 @@
 
       <section id="documentation" class="container">
         <h2>Video Tutorial</h2>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <hr>
+        <iframe width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <hr style="margin-top: 140px;">
         <h2>Installation Guide</h2>
         <div class="tasks">
           <input type="checkbox" id="task-no-1" name="task-no-1">
