@@ -42,7 +42,7 @@
       <section id="tutorial" class="container">
          <h2>Video Tutorial</h2>
         <iframe width="100%" height="450px" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <hr style="margin-top: 140px;margin-bottom:80px">
+        <hr style="margin-top: 100px;margin-bottom:140px">
       </section>
 
       <section id="documentation" class="container">
