@@ -41,7 +41,7 @@
 
       <section id="documentation" class="container">
         <h2>Video Tutorial</h2>
-        <iframe width="100%" height="600px" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="450px" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <hr style="margin-top: 140px;margin-bottom:100px">
         <h2>Installation Guide</h2>
         <div class="tasks">
