@@ -36,13 +36,16 @@
         <h1>A free solution to cookies consent</h1>
         <p>Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users.</p>
         <a href="https://github.com/The-Poly-Group/poly-cookies/archive/refs/heads/main.zip" target="_blank"><button><i class="fa-solid fa-cloud-arrow-down"></i> Download</button></a>
-        <button style="display:none;"><i class="fa-solid fa-book"></i> Documentation</button>
+        <a href="#tutorial" style="display: none;"><button><i class="fa-solid fa-book"></i> Watch Turorial</button></a>
+      </section>
+
+      <section id="tutorial" class="container">
+         <h2>Video Tutorial</h2>
+        <iframe width="100%" height="450px" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <hr style="margin-top: 100px;margin-bottom:80px">
       </section>
 
       <section id="documentation" class="container">
-        <h2>Watch Tutorial</h2>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <hr>
         <h2>Installation Guide</h2>
         <div class="tasks">
           <input type="checkbox" id="task-no-1" name="task-no-1">
