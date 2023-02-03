@@ -40,7 +40,7 @@
       </section>
 
       <section id="documentation" class="container">
-        <h2>Video Tutorial</h2>
+        <h2>Watch Tutorial</h2>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QSKiPr_VgPo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <hr>
         <h2>Installation Guide</h2>
