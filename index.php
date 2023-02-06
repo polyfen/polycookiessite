@@ -167,7 +167,8 @@
           <input type="checkbox" id="task-no-12" name="task-no-12">
           <label for="task-no-12">12. Add CSS style to the Cookies Modal</label>
         </div>
-          <p>Add the <strong>cookies.css</strong> file from Poly Cookies to your website's &lt;head>.</p>
+          <p>If you're using a platform like Wordpress, Squarespace, or Wix, it might not be easy for you to upload the custom CSS file and the images. In that case copy the styles from the file <strong>cookies-for-cms.html</strong> and paste it in the "Cookies Modal" tag from GTM above the existing code.</p>
+          <p>If you're not using a platform like Wordpres, Squarespace or Wix, you can continue by adding the <strong>cookies.css</strong> file from Poly Cookies to your website's &lt;head>.</p>
           <pre>
             <code>
 &lt;link rel="stylesheet" href="cookies.css" type="text/css">
