@@ -101,7 +101,7 @@
 &lt;div id="cookies-modal-container">
   &lt;div id="cookies-modal">
     &lt;div id="cookies-title">
-      🍪 Improve your experience accepting our &lt;a href="#YOUR-PRIVACY-POLICY-PAGE" target="_blank">privacy policy&lt;/a>.
+      🍪 Improve your experience by accepting our &lt;a href="#YOUR-PRIVACY-POLICY-PAGE" target="_blank">privacy policy&lt;/a>.
     &lt;/div>
     &lt;div id="cookies-modal-buttons">
       &lt;button id="accept-cookies-button" onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Accept&lt;/button> &lt;button onclick="document.getElementById('cookies-modal').className='cookies-d-none';">Reject&lt;/button>
