@@ -1,6 +1,4 @@
 <head>
-  <title>Poly Cookies | Free GDPR Compliance Template</title>
-
 
   <!-- META General -->
   <meta charset="UTF-8">

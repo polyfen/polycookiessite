@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Poly Cookies</title>
+    <title>Poly Cookies | Free GDPR Compliance Template</title>
 
     <!-- INCLUDE HEAD.PHP start -->
     <?php include 'sections/head.php';?>
