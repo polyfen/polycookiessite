@@ -5,13 +5,15 @@ footer {
     border-top: 2px solid #00000011;
     padding: 20px 20px;
     grid-template-columns: repeat(1, 1fr);
-    align-items: center;
+    justify-items: center;
 }
 
 div#social-icons, div#legal, div#the-poly-group {
     text-align: center;
 }
-
+div#the-poly-group {
+    width: 80px;
+}
 div#legal {
     padding: 30px 0;
 }
@@ -71,6 +73,8 @@ div#tpg {
 
     footer {
         grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        justify-items: unset;
     }
 
     div#social-icons {
@@ -83,7 +87,7 @@ div#tpg {
 
     div#the-poly-group {
         text-align: right;
-        width: 80px;
+        
         justify-self: end;
     }
 
