@@ -33,7 +33,7 @@
     <div>
       
       <section id="hero-cover">
-        <h1>A free solution to cookies consent</h1>
+        <h1>A free solution for cookies consent</h1>
         <p>Implementing Privacy Protection on your website is not just for legal compliance, it's about caring for your users.</p>
         <a href="https://github.com/polyfen/polycookiesapp/archive/refs/heads/main.zip" target="_blank"><button><i class="fa-solid fa-cloud-arrow-down"></i> Download</button></a>
         <a href="#tutorial" style="display: none;"><button><i class="fa-solid fa-book"></i> Watch Turorial</button></a>
