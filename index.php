@@ -196,7 +196,7 @@
         <p>There should be no cookies saved on your browser by default.</p>
         <p>Next, Click on the "Reject" button of the cookies modal. The modal should dissappear without saving any cookies.</p>
         <p>Refresh the website, the cookies modal should re-appear. This time, click on the "Accept" button.</p>
-        <p>Lastly, go back to the DevTools "Application" tab and make sure there is a new cookie being registered from your website named "consentAccepted" with a value of "True" and an expiration date set 90 days from today's date.</p>
+        <p>Lastly, go back to the DevTools "Application" tab and make sure there is a new cookie being registered from your website named "cookiesConsentGranted" with a value of "True" and an expiration date set 180 days from today's date.</p>
         <p>All other tracking cookies you might be using, like "_ga" from Google Analytics, should also be appearing on the DevTools window.</p>
       </section>
 
